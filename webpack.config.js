@@ -12,6 +12,7 @@ const context = path.join(__dirname, 'src');
 module.exports = {
   context,
   entry: {
+    common: './common.ts',
     'hello-world': './hello-world.ts',
   },
   plugins: [
