@@ -27,9 +27,4 @@ Recommend to use [\`vue-class-component\`](https://github.com/vuejs/vue-class-co
   }
 </script>
 
-<style lang="scss" scoped>
-  #hello-world {
-    border-left: 6px solid rgba(var(--info-color), 0.5);
-    padding-left: 16px;
-  }
-</style>
+<style lang="scss" scoped>@import "../styles/hello-world";</style>
