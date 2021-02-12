@@ -24,6 +24,11 @@ Recommend to use [\`vue-class-component\`](https://github.com/vuejs/vue-class-co
 
 \`vno.VDP\` is an alias of [\`vue-property-decorator\`](https://github.com/kaorun343/vue-property-decorator), and \`vno.Vue\` is an alias of \`vno.VDP.Vue\`.`;
     }
+
+    // mounted() {
+    //   // get the element and append it to where you want.
+    //   document.querySelector('#app')!.append(this.$el);
+    // }
   }
 </script>
 
