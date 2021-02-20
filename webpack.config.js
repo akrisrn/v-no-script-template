@@ -49,15 +49,24 @@ module.exports = {
         test: /\.s?css$/,
         use: [
           MiniCssExtractPlugin.loader,
-          'css-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              url: false,
+            },
+          },
           'sass-loader',
         ],
       }, {
         test: /\.sass$/,
         use: [
           MiniCssExtractPlugin.loader,
-          'css-loader',
           {
+            loader: 'css-loader',
+            options: {
+              url: false,
+            },
+          }, {
             loader: 'sass-loader',
             options: {
               sassOptions: {
